@@ -1,0 +1,8 @@
+Section 3: style
+<style scoped>   --> scoped used for making single css actions
+...
+</style>
+
+Section 4: Tailwind
+npm install --save-dev tailwindcss postcss autoprefixer (install tailwind)
+npx tailwindcss init -p (create tilewind files)
