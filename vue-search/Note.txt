@@ -1,3 +1,7 @@
+Section 2:
+opening a new project for vueJs
+
+
 Section 3: style
 <style scoped>   --> scoped used for making single css actions
 ...
@@ -6,3 +10,16 @@ Section 3: style
 Section 4: Tailwind
 npm install --save-dev tailwindcss postcss autoprefixer (install tailwind)
 npx tailwindcss init -p (create tilewind files)
+
+Lession 33: how to merg 2 arrays---> array x, array y --merge--> console.log(...x, ...y) --> ... (puts an array another a other array)
+
+Lession 34: Google fonts;
+Go to website www.Googlefonts ... > copy the font links that you want import in index.html the links and after that 
+we have to tell tailwind the fonts so open file tilwind.Config.js and import: const defaultTheme = require('tailwindcss/defaultTheme')
+
+and after that to  extends section {fontFamily: {
+        sans: ["Open Sans", ...defaultTheme.fontFamily.sans], // this is the array that takes al the fonts
+      },
+}
+Lession 35: Some simple example how to use tilewind by classes ex: text-center
+Lession 36-37: installing Prettier plugin for tailwind and IntelliSense Extension

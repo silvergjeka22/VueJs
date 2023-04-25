@@ -1,3 +1,3 @@
 <template>
-      <h1>Hello VueJs</h1>
+  <h1 class="mt-8 text-center text-4xl">Hello VueJs</h1>
 </template>
